@@ -1,2 +1,16 @@
-# amazon_icici_creditcard_rewardPointsCalculator
-Downloads the latest Amazon Pay ICICI Credit Card Bill from your mail, parses it, calculates the reward points and creates a csv file.
+**Intro**: This repo will save you the time of calculating your Reward Points each month post getting your Credit Card Bill on email. See below video for more details.
+
+**Requirements**: 
+1. Id & Password of the email where the bill is sent.
+2. Password to decrypt the bill. (Usually it is First four characters of your name + Your DOB in DDMM format)
+
+**Note**: Right now, it supports reward point calculation for only Amazon Pay ICICI Credit Card. Will add more credit cards soon as and when time permits. 
+
+**How To Install**: 
+1. Download/ Clone this repo.
+2. Now run the following command to install all the required libraries.
+    ``` pip install requirements.txt ```
+3. Go to Amazon ICICI directory and set the DIRECTORY to the absolute path where you want to save the generated CSV file. 
+4.  and run the below command. MONTH = month when the Credit Card bill was mailed.
+    ``` python3 install calculateRewardPoints.py MONTH ```
+5. Tadaaa. A CSV with the individual reward point calculation is created at DIRECTORY.
