@@ -3,7 +3,7 @@
 https://user-images.githubusercontent.com/29705160/126617769-64261624-7d57-4c55-ac22-b7e9ded2c4af.mp4
 
 **Requirements**: 
-1. Id & Password of the email where the bill is sent.
+1. Id & Password of the email where the bill is sent. ((If you have 2 step authentication active, please see this https://support.google.com/accounts/answer/185833 )
 2. Password to decrypt the bill. (Usually it is First four characters of your name + Your DOB in DDMM format)
 
 **Note**: Right now, it supports reward point calculation for only Amazon Pay ICICI Credit Card. Will add more credit cards soon as and when time permits. 
