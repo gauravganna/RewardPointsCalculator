@@ -86,7 +86,7 @@ def getRewardPoints(lst):
 
 
 def toSkip(lst):
-    if lst == None or 'Payment Received' in lst[2] or 'petrol' in lst[2].lower() or 'fuel surcharge' in lst[2].lower():
+    if lst == None or 'petrol' in lst[2].lower() or 'automobiles' in lst[2].lower() or isCredit(lst):
         return True
     return False
 
